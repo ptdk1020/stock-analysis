@@ -1,0 +1,9 @@
+pandas
+pydantic
+requests
+python-dotenv
+google-cloud-storage
+google-cloud-bigquery
+matplotlib
+statsmodels
+pyarrow

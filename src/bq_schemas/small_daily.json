@@ -1,0 +1,39 @@
+
+[
+    {
+      "name": "date",
+      "type": "DATE"
+    },
+    {
+        "name": "ticker",
+        "type": "STRING"
+    },
+    {
+        "name": "open_price",
+        "type": "FLOAT64"
+    },
+    {
+        "name": "close_price",
+        "type": "FLOAT64"
+    },
+    {
+        "name": "highest_price",
+        "type": "FLOAT64"
+    },
+    {
+        "name": "lowest_price",
+        "type": "FLOAT64"
+    },
+    {
+        "name": "number_of_transactions",
+        "type": "INT64"
+    },
+    {
+        "name": "trading_volume",
+        "type": "INT64"
+    },
+    {
+        "name": "volume_weighted_average_price",
+        "type": "FLOAT64"
+    }
+]
