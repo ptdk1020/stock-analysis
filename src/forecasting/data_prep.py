@@ -87,8 +87,8 @@ class DataPrep(Dataset):
             return window
         
     
-    def get_loader(self,batch_size=8):
-        dataloader = DataLoader(self, batch_size=batch_size, shuffle=True)
+    def get_loader(self,batch_size=8,shuffle=True):
+        dataloader = DataLoader(self, batch_size=batch_size, shuffle=shuffle)
         return dataloader
     
     def save_tickers(self,save_folder):
