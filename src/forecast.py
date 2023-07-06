@@ -63,7 +63,7 @@ def predict_historical_data(model, dataset):
     historical_index = dataset.data_index[len(dataset.data_index)-len(dataset.windows):]
 
     # get full loader
-    loader = dataset.get_loader(batch_size=len(dataset.windows))
+    loader = dataset.get_loader(batch_size=len(dataset.windows),shuffle=False)
     pred = model.predict(next(iter(loader)))
 
     # convert to row format
